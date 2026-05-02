@@ -143,6 +143,21 @@ export function isGeminiModel(model: string): boolean {
   return modelName.startsWith("gemini-");
 }
 
+export function isDeepSeekV4Model(model: string): boolean {
+  const modelName = extractModelName(model).toLowerCase();
+  return modelName.includes("deepseek-v4");
+}
+
+export function isDeepSeekV4ProModel(model: string): boolean {
+  const modelName = extractModelName(model).toLowerCase();
+  return modelName.includes("deepseek-v4-pro");
+}
+
+export function isDeepSeekV4FlashModel(model: string): boolean {
+  const modelName = extractModelName(model).toLowerCase();
+  return modelName.includes("deepseek-v4-flash");
+}
+
 export type BuiltinAgentName =
   | "sisyphus"
   | "hephaestus"

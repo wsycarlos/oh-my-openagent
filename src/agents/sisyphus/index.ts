@@ -7,6 +7,7 @@
  * - gemini.ts: Corrective overlays for Gemini's aggressive tendencies
  * - gpt-5-4.ts: Native GPT-5.4 prompt with block-structured guidance
  * - gpt-5-5.ts: Native GPT-5.5 prompt with Codex-style sections
+ * - deepseek-v4.ts: Native DeepSeek-V4 prompt optimized for agent orchestration
  */
 
 export { buildDefaultSisyphusPrompt, buildTaskManagementSection } from "./default";
@@ -22,3 +23,4 @@ export {
 export { buildGpt54SisyphusPrompt } from "./gpt-5-4";
 export { buildGpt55SisyphusPrompt } from "./gpt-5-5";
 export { buildKimiK26SisyphusPrompt } from "./kimi-k2-6";
+export { buildDeepSeekV4SisyphusPrompt } from "./deepseek-v4";

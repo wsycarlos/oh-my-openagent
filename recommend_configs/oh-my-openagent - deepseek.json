@@ -1,0 +1,146 @@
+{
+  "$schema": "https://raw.githubusercontent.com/code-yeongyu/oh-my-openagent/dev/assets/oh-my-opencode.schema.json",
+  "agents": {
+    "sisyphus": {
+      "model": "deepseek/deepseek-v4-pro",
+      "variant": "max",
+      "fallback_models": [
+        {
+          "model": "deepseek/deepseek-v4-pro",
+          "variant": "high"
+        }
+      ]
+    },
+    "hephaestus": {
+      "model": "deepseek/deepseek-v4-pro",
+      "variant": "medium"
+    },
+    "oracle": {
+      "model": "deepseek/deepseek-v4-pro",
+      "variant": "high",
+      "fallback_models": [
+        {
+          "model": "deepseek/deepseek-v4-pro",
+          "variant": "max"
+        }
+      ]
+    },
+    "explore": {
+      "model": "deepseek/deepseek-v4-flash"
+    },
+    "multimodal-looker": {
+      "model": "deepseek/deepseek-v4-flash",
+      "variant": "high"
+    },
+    "prometheus": {
+      "model": "deepseek/deepseek-v4-pro",
+      "variant": "max",
+      "fallback_models": [
+        {
+          "model": "deepseek/deepseek-v4-pro",
+          "variant": "high"
+        }
+      ]
+    },
+    "metis": {
+      "model": "deepseek/deepseek-v4-pro",
+      "variant": "max",
+      "fallback_models": [
+        {
+          "model": "deepseek/deepseek-v4-pro",
+          "variant": "high"
+        }
+      ]
+    },
+    "momus": {
+      "model": "deepseek/deepseek-v4-pro",
+      "variant": "max",
+      "fallback_models": [
+        {
+          "model": "deepseek/deepseek-v4-pro",
+          "variant": "high"
+        }
+      ]
+    },
+    "atlas": {
+      "model": "deepseek/deepseek-v4-flash",
+	  "variant": "max",
+      "fallback_models": [
+        {
+          "model": "deepseek/deepseek-v4-pro",
+          "variant": "medium"
+        }
+      ]
+    },
+    "sisyphus-junior": {
+      "model": "deepseek/deepseek-v4-flash",
+	  "variant": "max",
+      "fallback_models": [
+        {
+          "model": "deepseek/deepseek-v4-pro",
+          "variant": "medium"
+        }
+      ]
+    }
+  },
+  "categories": {
+    "visual-engineering": {
+      "model": "deepseek/deepseek-v4-pro",
+      "variant": "high",
+      "fallback_models": [
+        {
+          "model": "deepseek/deepseek-v4-pro",
+          "variant": "max"
+        }
+      ]
+    },
+    "ultrabrain": {
+      "model": "deepseek/deepseek-v4-pro",
+      "variant": "high",
+      "fallback_models": [
+        {
+          "model": "deepseek/deepseek-v4-pro",
+          "variant": "max"
+        }
+      ]
+    },
+    "deep": {
+      "model": "deepseek/deepseek-v4-pro",
+      "variant": "medium",
+      "fallback_models": [
+        {
+          "model": "deepseek/deepseek-v4-pro",
+          "variant": "high"
+        },
+        {
+          "model": "deepseek/deepseek-v4-pro",
+          "variant": "max"
+        }
+      ]
+    },
+    "artistry": {
+      "model": "deepseek/deepseek-v4-pro",
+      "variant": "high",
+      "fallback_models": [
+        {
+          "model": "deepseek/deepseek-v4-pro",
+          "variant": "max"
+        }
+      ]
+    },
+    "quick": {
+      "model": "deepseek/deepseek-v4-flash"
+    },
+    "unspecified-low": {
+      "model": "deepseek/deepseek-v4-flash",
+	  "variant": "medium"
+    },
+    "unspecified-high": {
+      "model": "deepseek/deepseek-v4-pro",
+	  "variant": "high"
+    },
+    "writing": {
+      "model": "deepseek/deepseek-v4-flash"
+    }
+  }
+}
